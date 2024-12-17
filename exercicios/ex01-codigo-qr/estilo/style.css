@@ -8,27 +8,37 @@
 }
 
 body, html {
-    background-color: white;
+    background-color: #D6E1F1;
     height:100vh;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
-    background-color: #D6E1F1;
-    margin: 50px;
-    padding: 50px;
-    border-radius: 10px;
+    background-color: white;
+    width: 353px;
+    padding: 22px;
+    border-radius: 15px;
     
 }
 
 main, h2, p {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
 img {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
 }
 
